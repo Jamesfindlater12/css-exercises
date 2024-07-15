@@ -1,0 +1,22 @@
+/* styles.css */
+
+.odd-numbers {
+    background-color:#ff8282;
+    font-family: Verdana, DejaVu Sans, sans-serifs;
+
+}
+
+#number-2 {
+    font-size: 32px;
+    color: blue;
+}
+
+.bigger {
+    font-size: 24px;
+}
+
+#number-4 {
+    background-color: rgb(4, 229, 4);
+    font-size: 24px;
+    font-weight: bold;
+}
