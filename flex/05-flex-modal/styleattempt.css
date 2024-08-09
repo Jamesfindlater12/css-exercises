@@ -9,7 +9,7 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free */
+  /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,9 +20,8 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  display: flex;
-  gap: 16px;
-  padding: 16px;
+  padding: 10px;
+
 }
 
 .icon {
@@ -36,7 +35,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0;
+  margin: 10px;
 }
 
 .close-button {
@@ -58,12 +57,14 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  margin: 1px;
 }
 
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  
 }
 
 button.cancel {
@@ -72,16 +73,34 @@ button.cancel {
   color: royalblue;
 }
 
-.header {
+.container-1 {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 8px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: left;
+  flex-direction: column;
 
 }
 
+.icon-and-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  margin-right: auto;
+  margin-left: 10px;
+  font-size: 20px;
+
+}
+
+.cont-cancel {
+  display: inline-flex;
+  flex-shrink: 0;
+  margin-top: 10px;
+}
+
 .text {
-  margin-bottom: 16px;
+  font-size: 16px;
 }
